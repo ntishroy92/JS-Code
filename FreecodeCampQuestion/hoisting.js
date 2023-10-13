@@ -27,6 +27,6 @@ normalFunction();
 
 //   arrow function doesn't get hoisted same reason as above.
 // arrowFunction();
-var arrowFunction = function(){
+var arrowFunction = ()=>{
     console.log("This is arrow function");
 }
